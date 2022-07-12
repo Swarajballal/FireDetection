@@ -13,9 +13,9 @@ void setup()
    pinMode(flame_pin, INPUT);
    lcd.begin(16, 2);
    lcd.setCursor(0, 0);
-   lcd.print("Ketan Shinde");
+   lcd.print("Swaraj Ballal");
    lcd.setCursor(0, 1);
-   lcd.print("Roll No 10");
+   lcd.print("Roll No 20104B2001");
    delay(4000); // allow the MQ-6 to warm up
    Serial.println("Gas sensor warming up!");
    Serial.println("Reading From the Flame and smoke Sensor ...");
